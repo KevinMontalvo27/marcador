@@ -68,13 +68,13 @@
 		{/if}
 
 		<!-- Botón de inicio de sesión -->
-		<button type="submit" disabled={cargando} class="flex btn btn-outline justify-center items-center w-full py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white ">
+		<a href="/dashboard" class="flex btn btn-outline justify-center items-center w-full py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white">
 			{#if cargando}
 				<Loader class="animate-spin h-5 w-5" />
 			{:else}
 				Iniciar Sesión
 			{/if}
-		</button>
+		</a>
 
 		<!-- Enlaces adicionales -->
 		<div class="text-sm text-center space-x-4">

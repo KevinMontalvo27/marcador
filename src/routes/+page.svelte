@@ -1,8 +1,5 @@
 <script lang="ts">
 	import Login from "../components/Login.svelte";
-    import Footer from "../components/Footer.svelte";
-
-	
 </script>
 
 

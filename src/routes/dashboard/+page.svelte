@@ -4,7 +4,7 @@
         //console.log(data);  
     </script>   
 
-    <p>Partidos</p>
+ 
 
     {#if data.partidos.length === 0}
     <p>No hay partidos disponibles.</p>

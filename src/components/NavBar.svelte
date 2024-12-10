@@ -2,7 +2,7 @@
     import { House } from "lucide-svelte"
 </script>
 
-<div class="navbar bg-base-100">
+<div class="navbar bg-base-500">  
     <div class="flex-1">
       <a href="https://lucide.dev/icons/house" class="btn btn-ghost text-xl"><House></House></a>
     </div>
